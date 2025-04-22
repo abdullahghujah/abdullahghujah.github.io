@@ -1,4 +1,3 @@
-<script type="text/javascript">
   (function(d, t) {
       var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
     console.log("V=" + v.outerHTML);
@@ -16,4 +15,3 @@
       v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
     console.log("Parent=" + s.parentNode.outerHTML);
   })(document, 'script');
-</script>
