@@ -9,6 +9,9 @@
           versionID: 'production',
           voice: {
             url: "https://runtime-api.voiceflow.com"
+          },
+          assistant: {
+            stylesheet: 'https://abdullahghujah.github.io/style.css'
           }
         });
       }
